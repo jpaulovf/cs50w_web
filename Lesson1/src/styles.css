@@ -1,0 +1,17 @@
+/* Element type */
+h1 {
+    color: blue;
+    text-align: center;
+}
+
+/* Unique id */
+#foo {
+    color: red;
+}
+
+/* Class */
+.baz {
+    font-family: Arial, sans-serif;
+}
+
+/* Precedency: inline > id > class > type */
