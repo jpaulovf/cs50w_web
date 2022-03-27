@@ -1,0 +1,35 @@
+
+/* SASS variable (not possible in vanilla CSS) */
+$color: blue;
+
+/* Vanilla CSS
+    div > ul {
+        something
+    }
+*/
+
+/* In Sass, one can nest css selectors */
+/*
+    div {
+        font-size: 14px;
+
+        p {
+            color: red;
+        }
+
+        ul {
+            color: blue;
+        }
+
+    }
+*/
+
+ul {
+    font-size: 14px;
+    color: $color;
+}
+
+ol {
+    font-size: 20px;
+    color: $color;
+}
