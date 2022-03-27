@@ -1,0 +1,10 @@
+/* SASS variable (not possible in vanilla CSS) */
+ul {
+  font-size: 14px;
+  color: blue; }
+
+ol {
+  font-size: 20px;
+  color: blue; }
+
+/*# sourceMappingURL=variables.css.map */
